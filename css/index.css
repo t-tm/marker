@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.bgYellow {
+  position: relative;
+  display: inline-block;
+  padding: 2px 4px;
+}
+.bgCyan {
+  position: relative;
+  display: inline-block;
+}
+.bgYellow span {
+  position: absolute;
+  left: 0;
+  bottom: 15%;
+  display: inline-block;
+  z-index: -1;
+  transition: .5s all ease-out;
+  border-radius: 2px;
+  box-shadow: 0 0 1px #f9c97b;
+  transform: skew(-10deg,-1deg);
+  
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eda076+0,f9c97b+4,f7e4b4+71,f9c97b+91,f9c97b+100 */
+  background: #eda076; /* Old browsers */
+  background: -moz-linear-gradient(left, #eda076 0%, #f9c97b 4%, #f7e4b4 71%, #f9c97b 91%, #f9c97b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #eda076 0%,#f9c97b 4%,#f7e4b4 71%,#f9c97b 91%,#f9c97b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #eda076 0%,#f9c97b 4%,#f7e4b4 71%,#f9c97b 91%,#f9c97b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eda076', endColorstr='#f9c97b',GradientType=1 ); /* IE6-9 */
+}
+.bgCyan {
+  display: inline-block;
+}
+.bgCyan span {
+  position: absolute;
+  left: 0;
+  bottom: 15%;
+  display: inline-block;
+  z-index: -1;
+  transition: .5s all ease-out;
+  border-radius: 2px;
+  box-shadow: 0 0 1px #f9c97b;
+  transform: skew(-10deg,-1deg);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b8dd6+0,71cae2+4,a3e7ed+71,71cae2+91,71cae2+100 */
+  background: #6b8dd6; /* Old browsers */
+  background: -moz-linear-gradient(left, #6b8dd6 0%, #71cae2 4%, #a3e7ed 71%, #71cae2 91%, #71cae2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #6b8dd6 0%,#71cae2 4%,#a3e7ed 71%,#71cae2 91%,#71cae2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #6b8dd6 0%,#71cae2 4%,#a3e7ed 71%,#71cae2 91%,#71cae2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b8dd6', endColorstr='#71cae2',GradientType=1 ); /* IE6-9 */
+  }
+.b {
+  font-weight: bold;
+  margin-top: 60px;
+}
+.void {
+  height: 300px;
+}
