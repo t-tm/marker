@@ -6,9 +6,10 @@ $(window).on( 'load' , function(){
     $('.bgYellow,.bgCyan').each(function(){
       scroll = $(window).scrollTop();
       var pos = $(this).offset().top;  
-      var windowHeight = $(window).height();
+      var windowHeight = $(window).innerHeight();
+      var executionTiming = 200;//該当要素が表示され始めてから何pxスクロールしたら実行するか。
       $(this).find('span').css({'width':'0'});
-      if( pos + 200 < scroll + windowHeight ){// 100 = 足したい任意のpx
+      if( pos + executionTiming < scroll + windowHeight ){
         var thisWidth = $(this).outerWidth(true);
         var markerHeight = 10 + 'px';
         $(this).find('span').css({ 'width': thisWidth , 'height' : markerHeight });
