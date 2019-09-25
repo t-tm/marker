@@ -1,6 +1,6 @@
 // JavaScript Document
 
-//sShow
+//マーカーを引く
 $(window).on( 'load' , function(){
   //.markerの内部にspanを作成し、その部分にマーカーを引く。
   $('<span></span>').appendTo('.marker');
