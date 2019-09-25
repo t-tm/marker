@@ -2,8 +2,10 @@
 
 //sShow
 $(window).on( 'load' , function(){
+  //.markerの内部にspanを作成し、その部分にマーカーを引く。
+  $('<span></span>').appendTo('.marker');
   $(window).scroll(function() {
-    $('.bgYellow,.bgCyan').each(function(){
+    $('.marker').each(function(){
       scroll = $(window).scrollTop();
       var pos = $(this).offset().top;  
       var windowHeight = $(window).innerHeight();
@@ -11,7 +13,8 @@ $(window).on( 'load' , function(){
       $(this).find('span').css({'width':'0'});
       if( pos + executionTiming < scroll + windowHeight ){
         var thisWidth = $(this).outerWidth(true);
-        var markerHeight = 10 + 'px';
+        var marker
+        var markerHeight = 10 + 'px';//マーカーの縦サイズ設定
         $(this).find('span').css({ 'width': thisWidth , 'height' : markerHeight });
       } else {
         $(this).find('span').css({ 'width' : '0' });
