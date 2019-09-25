@@ -1,9 +1,7 @@
 # When you are at any height, underline with marker.
 # 任意の高さに来た時に、マーカーで下線を引く。
-
 create a gradient underline and rotate it.
 グラデーションで下線を引いた後に、回転させる。
-
 
 ## HTML内にjsとcssへのリンクを貼る。
 
@@ -38,4 +36,4 @@ create a gradient underline and rotate it.
 
 ### 注意事項
 
-・マーカー部分のテキストが次の行にまたがる場合、マーカー開始部分で改行される。
+*マーカー部分のテキストが次の行にまたがる場合、マーカー開始部分で改行される。
