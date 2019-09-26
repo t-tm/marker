@@ -41,7 +41,7 @@
 #### 注意事項
 
 * マーカー部分のテキストが次の行にまたがる場合、マーカー開始部分で改行される。
-
+* `marker`classをつけた要素は、内部を`span`(inline-block)でラッピングするので、cssは内部spanにかける。
 
 ### ライセンス：LICENCE
 MIT LICENCE
