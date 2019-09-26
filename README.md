@@ -2,10 +2,11 @@
 
 
 
-## 任意の高さに来た時に、マーカーで下線を引く。When you are at any height, underline with marker.
+## 概要：overview
+任意の高さに来た時に、マーカーで下線を引く：When you are at any height, underline with marker.
 ![marker](https://user-images.githubusercontent.com/55526837/65664253-ec30e900-e073-11e9-91fc-2886fa9846c5.gif)
 
-
+## 実装方法：usage
 ### HTML内にjsとcssへのリンクを貼る。
 
 ```HTML
@@ -40,3 +41,7 @@
 #### 注意事項
 
 * マーカー部分のテキストが次の行にまたがる場合、マーカー開始部分で改行される。
+
+
+### ライセンス：LICENCE
+MIT LICENCE
