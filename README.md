@@ -2,11 +2,11 @@
 
 
 
-## 任意の高さに来た時に、マーカーで下線を引く：When you are at any height, underline with marker.
+## 任意の高さに来た時に、マーカーで下線を引く
 ![marker](https://user-images.githubusercontent.com/55526837/65665070-a70db680-e075-11e9-938a-fad9791ab660.gif)
 
 
-## 実装方法：usage
+## 実装方法
 ### HTML内にjsとcssへのリンクを貼る。
 
 ```HTML
